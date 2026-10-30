@@ -1,0 +1,29 @@
+{
+  "batches": 60,
+  "sites": 2,
+  "online_rows": 20220,
+  "offline_rows": 900,
+  "quality_fixes": {
+    "do out of range set to missing": 0,
+    "duplicate rows removed": 180,
+    "gaps up to 3 h interpolated": 505,
+    "ph out of range set to missing": 101,
+    "temp out of range set to missing": 0
+  },
+  "quality_fixes_total": 786,
+  "model_day5_features": {
+    "ridge": {
+      "mae_gL": 0.28362767833459945,
+      "mape_pct": 8.14972860435513,
+      "r2": 0.8283900887116913
+    },
+    "random_forest": {
+      "mae_gL": 0.5295512538458748,
+      "mape_pct": 15.868607408774535,
+      "r2": 0.4876491799363518
+    },
+    "mean_baseline": {
+      "mape_pct": 23.48757957833109
+    }
+  }
+}
